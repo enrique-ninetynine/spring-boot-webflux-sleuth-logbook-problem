@@ -1,0 +1,12 @@
+spring:
+  main:
+    banner-mode: off
+  application:
+    name: tracing-demo
+
+logging:
+  level:
+    org:
+      zalando:
+        logbook: TRACE
+
