@@ -1,10 +1,10 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
-	id("org.springframework.boot") version "2.4.2"
+	id("org.springframework.boot") version "2.4.3"
 	id("io.spring.dependency-management") version "1.0.11.RELEASE"
-	kotlin("jvm") version "1.4.21"
-	kotlin("plugin.spring") version "1.4.21"
+	kotlin("jvm") version "1.4.30"
+	kotlin("plugin.spring") version "1.4.30"
 }
 
 group = "com.example"
@@ -27,7 +27,7 @@ dependencies {
 	implementation("org.springframework.cloud:spring-cloud-starter-sleuth")
 	implementation("org.zalando:logbook-spring-boot-starter:2.5.0")
 	implementation("org.zalando:logbook-netty:2.5.0")
-	implementation("io.projectreactor.netty:reactor-netty-http-brave:1.0.3")
+	implementation("io.projectreactor.netty:reactor-netty-http-brave:1.0.4")
 
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	testImplementation("io.projectreactor:reactor-test")
